@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*back -grounds area*/
+
+body{
+    margin: 0px;
+	padding: 0px;
+	
+    
+	
+}
+div.topbkc{
+	margin: 0px;
+	padding: 0px;
+	background-color: #474747;
+}
+p{
+	font-size: 25px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+
+p1{
+	font-size: 25px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #E40E12;
+}
+
+/*heading and others*/
+h1{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 65px;
+    color: #fff;
+	
+}
+.mid{
+	background-image: url("../Req_sheet/img/mid.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 1920px;
+	height: 900px;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 25px;
+	margin-top: 0px;
+	
+}
+
+button,input[type="submit"],input[type="reset"]{
+	margin: 40px;
+	background-color: #EBEBEB;
+	width: 200px;
+	height: 50px;
+	border-width: 0px;
+	font-size: 30px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+	
+	
+}
+
+td{
+	font-size: 22px;
+	color:black;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+
+}
+
+
+input[type=text] ,input[type=password],input[type=number],textarea,select{
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    resize: vertical;
+	color: black;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 22px;
+}
+
+button:hover,input[type="submit"]:hover,input[type="reset"]:hover{
+	background-color: #C0C0C0;
+}
+
+
+a{
+	color: #000;
+}
+a:hover{
+	color: #E30003;
+}
+
+/*top-nav-bar */
+
+a1{
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+.topnav a:hover:not(.trash,.icon){
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #00162E;
+  color: white;
+}
+
+
+.topnav .icon {
+  display: none;
+  background-image: url("../IMG/m1.png");
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 650px) {
+  .topnav a{display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
